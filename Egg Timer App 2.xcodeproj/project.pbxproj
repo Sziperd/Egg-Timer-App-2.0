@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57C1886ECFC1F176BA9B6A60 /* Pods_Egg_Timer_App_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86387F016E3864F336E1A2D /* Pods_Egg_Timer_App_2.framework */; };
 		CB00A5D727BFD574006B6974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB00A5D627BFD574006B6974 /* AppDelegate.swift */; };
 		CB00A5D927BFD574006B6974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB00A5D827BFD574006B6974 /* SceneDelegate.swift */; };
 		CB00A5DB27BFD574006B6974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB00A5DA27BFD574006B6974 /* ViewController.swift */; };
 		CB00A5DE27BFD574006B6974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB00A5DC27BFD574006B6974 /* Main.storyboard */; };
 		CB00A5E027BFD577006B6974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB00A5DF27BFD577006B6974 /* Assets.xcassets */; };
 		CB00A5E327BFD577006B6974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB00A5E127BFD577006B6974 /* LaunchScreen.storyboard */; };
+		CB00A5EB27BFD795006B6974 /* tick.json in Resources */ = {isa = PBXBuildFile; fileRef = CB00A5EA27BFD795006B6974 /* tick.json */; };
+		CB00A5ED27BFD7A5006B6974 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB00A5EC27BFD7A5006B6974 /* alarm_sound.mp3 */; };
+		CB00A5EF27BFD7BA006B6974 /* CounterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB00A5EE27BFD7BA006B6974 /* CounterService.swift */; };
+		CB00A5F127BFD7C3006B6974 /* egg.json in Resources */ = {isa = PBXBuildFile; fileRef = CB00A5F027BFD7C3006B6974 /* egg.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,13 @@
 		CB00A5DF27BFD577006B6974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB00A5E227BFD577006B6974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB00A5E427BFD577006B6974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB00A5EA27BFD795006B6974 /* tick.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tick.json; sourceTree = SOURCE_ROOT; };
+		CB00A5EC27BFD7A5006B6974 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		CB00A5EE27BFD7BA006B6974 /* CounterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterService.swift; sourceTree = "<group>"; };
+		CB00A5F027BFD7C3006B6974 /* egg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = egg.json; sourceTree = "<group>"; };
+		CBA433092F6406F60922E073 /* Pods-Egg Timer App 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egg Timer App 2.debug.xcconfig"; path = "Target Support Files/Pods-Egg Timer App 2/Pods-Egg Timer App 2.debug.xcconfig"; sourceTree = "<group>"; };
+		D86387F016E3864F336E1A2D /* Pods_Egg_Timer_App_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Egg_Timer_App_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6F771A015CA8882FE28C29 /* Pods-Egg Timer App 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egg Timer App 2.release.xcconfig"; path = "Target Support Files/Pods-Egg Timer App 2/Pods-Egg Timer App 2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C1886ECFC1F176BA9B6A60 /* Pods_Egg_Timer_App_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5421639FA374E2F9ACA943C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBA433092F6406F60922E073 /* Pods-Egg Timer App 2.debug.xcconfig */,
+				FB6F771A015CA8882FE28C29 /* Pods-Egg Timer App 2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		76E1439AC2EF1CF0DF71709A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D86387F016E3864F336E1A2D /* Pods_Egg_Timer_App_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB00A5CA27BFD574006B6974 = {
 			isa = PBXGroup;
 			children = (
 				CB00A5D527BFD574006B6974 /* Egg Timer App 2 */,
 				CB00A5D427BFD574006B6974 /* Products */,
+				5421639FA374E2F9ACA943C0 /* Pods */,
+				76E1439AC2EF1CF0DF71709A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +88,8 @@
 		CB00A5D527BFD574006B6974 /* Egg Timer App 2 */ = {
 			isa = PBXGroup;
 			children = (
+				CB00A5EA27BFD795006B6974 /* tick.json */,
+				CB00A5F027BFD7C3006B6974 /* egg.json */,
 				CB00A5D627BFD574006B6974 /* AppDelegate.swift */,
 				CB00A5D827BFD574006B6974 /* SceneDelegate.swift */,
 				CB00A5DA27BFD574006B6974 /* ViewController.swift */,
@@ -63,6 +97,8 @@
 				CB00A5DF27BFD577006B6974 /* Assets.xcassets */,
 				CB00A5E127BFD577006B6974 /* LaunchScreen.storyboard */,
 				CB00A5E427BFD577006B6974 /* Info.plist */,
+				CB00A5EC27BFD7A5006B6974 /* alarm_sound.mp3 */,
+				CB00A5EE27BFD7BA006B6974 /* CounterService.swift */,
 			);
 			path = "Egg Timer App 2";
 			sourceTree = "<group>";
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB00A5E727BFD577006B6974 /* Build configuration list for PBXNativeTarget "Egg Timer App 2" */;
 			buildPhases = (
+				E2ECFD0FD4B4E936A71B85F3 /* [CP] Check Pods Manifest.lock */,
 				CB00A5CF27BFD574006B6974 /* Sources */,
 				CB00A5D027BFD574006B6974 /* Frameworks */,
 				CB00A5D127BFD574006B6974 /* Resources */,
+				59A50ECB512F481CB5D388A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,19 +163,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB00A5EB27BFD795006B6974 /* tick.json in Resources */,
+				CB00A5ED27BFD7A5006B6974 /* alarm_sound.mp3 in Resources */,
 				CB00A5E327BFD577006B6974 /* LaunchScreen.storyboard in Resources */,
 				CB00A5E027BFD577006B6974 /* Assets.xcassets in Resources */,
 				CB00A5DE27BFD574006B6974 /* Main.storyboard in Resources */,
+				CB00A5F127BFD7C3006B6974 /* egg.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59A50ECB512F481CB5D388A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Egg Timer App 2/Pods-Egg Timer App 2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Egg Timer App 2/Pods-Egg Timer App 2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Egg Timer App 2/Pods-Egg Timer App 2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2ECFD0FD4B4E936A71B85F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Egg Timer App 2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB00A5CF27BFD574006B6974 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB00A5EF27BFD7BA006B6974 /* CounterService.swift in Sources */,
 				CB00A5DB27BFD574006B6974 /* ViewController.swift in Sources */,
 				CB00A5D727BFD574006B6974 /* AppDelegate.swift in Sources */,
 				CB00A5D927BFD574006B6974 /* SceneDelegate.swift in Sources */,
@@ -284,6 +368,7 @@
 		};
 		CB00A5E827BFD577006B6974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA433092F6406F60922E073 /* Pods-Egg Timer App 2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +397,7 @@
 		};
 		CB00A5E927BFD577006B6974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6F771A015CA8882FE28C29 /* Pods-Egg Timer App 2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
